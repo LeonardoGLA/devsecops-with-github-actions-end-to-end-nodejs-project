@@ -19,7 +19,7 @@ jobs:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       with:
         args: >
-          -Dsonar.organization=actionsnodejs
+          -Dsonar.organization=actionsnodejs2
           -Dsonar.projectKey=actionsnodejs2_test2
   security:
     runs-on: ubuntu-latest
